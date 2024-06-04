@@ -61,6 +61,8 @@ public class LC53MaximumSubarray {
         // printAllSubarray(array); Time Complexity - N ^ 3
         // printSubarrayMaxSum(array); Time Complexity - N ^ 3
         // printSubarrayMaxSumBetter(array); Time Complexity - N ^ 2
+        // Kadeane Algo Idea is to not consider the subarray as a part of the answer if its sum is less than 0.
+        // As a sum less than 0 will always reduce our answer and hence cannot be the subarray with the max sum.
         printSubbarrayKadeaneAlgo(array); // Time Complexity - N
     }
 }
