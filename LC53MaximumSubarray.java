@@ -58,9 +58,9 @@ public class LC53MaximumSubarray {
     }
     public static void main(String[] args) {
         int[] array = {-2,1,-3,4,-1,2,1,-5,4};
-        // printAllSubarray(array);
-        // printSubarrayMaxSum(array);
-        // printSubarrayMaxSumBetter(array);
-        printSubbarrayKadeaneAlgo(array);
+        // printAllSubarray(array); Time Complexity - N ^ 3
+        // printSubarrayMaxSum(array); Time Complexity - N ^ 3
+        // printSubarrayMaxSumBetter(array); Time Complexity - N ^ 2
+        printSubbarrayKadeaneAlgo(array); // Time Complexity - N
     }
 }
