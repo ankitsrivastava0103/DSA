@@ -20,3 +20,6 @@ public class LC167TwoSum {
     }
     
 }
+
+// Int two pinter approach Time Complexity : O(n) & Sapce Complexity : O(1)
+// Can this be solved in Binary Search Timce COmplexity : O(log n) ?
